@@ -7,8 +7,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Apex ERP & Smart Vault',
-  description: 'Manage products, stocks, sales ledgers, and dynamic documents attachments.',
+  title: 'Rubel ERP',
+  description: 'Rubel ERP — Manage products, stocks, sales, invoices, employees and more.',
 };
 
 export default function RootLayout({

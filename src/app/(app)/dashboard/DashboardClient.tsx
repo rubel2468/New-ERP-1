@@ -182,7 +182,7 @@ export default function DashboardClient({ data, lastUpdated }: DashboardClientPr
             </div>
 
             <h1 className="text-4xl sm:text-5xl font-black tracking-tight text-shimmer leading-none mb-2">
-              Apex ERP
+              Rubel ERP
             </h1>
             <p className="text-slate-400 text-sm max-w-md">
               Real-time business intelligence — stocks, ledgers, and financial performance at a glance.

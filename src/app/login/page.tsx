@@ -83,7 +83,7 @@ export default function LoginPage() {
             <span className="text-2xl">🛡️</span>
           </div>
           <h1 className="text-2xl font-black bg-gradient-to-r from-blue-300 via-indigo-300 to-purple-300 bg-clip-text text-transparent">
-            Apex ERP
+            Rubel ERP
           </h1>
           <p className="text-slate-500 text-xs mt-1.5">Sign in to your dashboard</p>
         </div>

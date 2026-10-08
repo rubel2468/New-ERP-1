@@ -64,7 +64,7 @@ export default function Sidebar() {
             </div>
             <div>
               <h1 className="text-sm font-black tracking-tight bg-gradient-to-r from-blue-300 via-indigo-300 to-purple-300 bg-clip-text text-transparent leading-none">
-                Apex ERP
+                Rubel ERP
               </h1>
               <p className="text-[9px] text-slate-600 font-semibold uppercase tracking-wider mt-0.5">Management Suite</p>
             </div>

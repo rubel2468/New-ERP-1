@@ -30,11 +30,11 @@ export async function generateInvoicePDF(
     doc
       .fillColor('#1e293b')
       .fontSize(14)
-      .text('ERP Business Solutions Inc.', 50, 50)
+      .text('Rubel ERP', 50, 50)
       .fontSize(10)
-      .text('123 Enterprise Way')
-      .text('Suite 500')
-      .text('New York, NY 10001')
+      .text('Dhaka, Bangladesh')
+      .text('rubelerp.com')
+      .text('rk1769950@gmail.com')
       .moveDown(2);
 
     // --- Bill To / Customer Details ---

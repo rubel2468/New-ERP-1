@@ -20,7 +20,7 @@ export async function sendLowStockAlertEmail(
 ) {
   try {
     const mailOptions = {
-      from: `"ERP Alert System" <${process.env.EMAIL_USER}>`,
+      from: `"Rubel ERP Alert" <${process.env.EMAIL_USER}>`,
       to: toEmail,
       subject: `🚨 Low Stock Alert: ${productName}`,
       html: `
@@ -71,14 +71,14 @@ export async function sendInvoiceEmail(
     const mailOptions = {
       from: `"Accounts Dept" <${process.env.EMAIL_USER}>`,
       to: toEmail,
-      subject: `Invoice #${invoiceNumber} from ERP Inc.`,
+      subject: `Invoice #${invoiceNumber} from Rubel ERP`,
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px; max-width: 600px;">
           <h2>Thank you for your order!</h2>
           <p>Please find attached invoice <strong>#${invoiceNumber}</strong> detailing your recent purchase transaction.</p>
           <p>If you have any questions or queries regarding this bill, feel free to reply directly to this mail.</p>
           <br/>
-          <p style="font-size: 12px; color: #64748b;">Regards,<br/>ERP Accounts Dept</p>
+          <p style="font-size: 12px; color: #64748b;">Regards,<br/>Rubel ERP Accounts Dept</p>
         </div>
       `,
       attachments: [
