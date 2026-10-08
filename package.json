@@ -1,0 +1,38 @@
+{
+  "name": "erp-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.500.0",
+    "bcryptjs": "^2.4.3",
+    "iconv-lite": "^0.7.3",
+    "lucide-react": "^1.33.0",
+    "mongoose": "^8.1.1",
+    "next": "^14.1.0",
+    "next-auth": "^4.24.5",
+    "nodemailer": "^6.9.9",
+    "pdfkit": "^0.14.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.11.19",
+    "@types/nodemailer": "^6.4.14",
+    "@types/pdfkit": "^0.13.3",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
